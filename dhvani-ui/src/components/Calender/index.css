@@ -1,0 +1,15 @@
+/* Set the font size and color for the day number */
+.calendar-day {
+  font-size: 0.8rem;
+  color: #333;
+}
+
+/* Set the background color for inactive dates */
+.calendar-day.inactive {
+  background-color: #f5f5f5;
+}
+
+/* Set the background color for today's date */
+.calendar-day.today {
+  background-color: #e2f2ff;
+}
